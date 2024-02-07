@@ -27,6 +27,10 @@ const Login = () => {
         <Button  title="open modal" />
       </Link>
 
+      <Link href="/(tabs)/(drawertabs)/drawer1" asChild>
+        <Button  title="open drawer" />
+      </Link>
+
     </View>
   )
 }

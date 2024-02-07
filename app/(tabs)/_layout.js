@@ -53,6 +53,20 @@ const _layout = () => {
         }}
       />
 
+      <Tabs.Screen
+        name="(drawertabs)"
+        options={{
+          tabBarLabel: 'Drawer Tab',
+          tabBarIcon: ({size,color}) => {
+            return <Ionicons name="menu" size={24} color="lightgreen" />
+          },
+          tabBarStyle: { backgroundColor: 'silver' },
+          tabBarActiveBackgroundColor: 'green',
+          tabBarActiveTintColor: 'white',
+          headerShown: false,
+        }}
+      />
+
     </Tabs>
   )
 }
