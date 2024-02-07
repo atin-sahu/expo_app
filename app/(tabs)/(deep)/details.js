@@ -1,17 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
-import Login from '../components/Login'
 
-// start new branch
-
-const index = () => {
+const Details = () => {
   return (
     <View>
-      <Login />
+      <Text>Details page</Text>
     </View>
   )
 }
 
-export default index
+export default Details
 
 const styles = StyleSheet.create({})
