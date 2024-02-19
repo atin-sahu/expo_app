@@ -7,7 +7,13 @@ const Login = () => {
   return (
     <View style={{gap:10}}>
 
-      <Button onPress={()=>router.push('register')} title="go to register" />
+
+      <Link href="/(crops)" asChild replace>
+        <Button  title="go to crop" />
+      </Link>
+
+
+      {/* <Button onPress={()=>router.push('register')} title="go to register" />
 
       <Link href="/register" asChild>
         <Button  title="go to register as link" />
@@ -29,7 +35,7 @@ const Login = () => {
 
       <Link href="/(tabs)/(drawertabs)/drawer1" asChild>
         <Button  title="open drawer" />
-      </Link>
+      </Link> */}
 
     </View>
   )

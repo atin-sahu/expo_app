@@ -83,6 +83,21 @@ const _layout = () => {
                 }}
             />
 
+            <Stack.Screen
+                name="(crops)"
+                options={{
+                    // title: 'TABS',
+                    headerStyle: {
+                        backgroundColor: '#f4511e',
+                    },
+                    headerTintColor: '#fff',
+                    headerTitleStyle: {
+                        fontWeight: 'bold',
+                    },
+                    headerShown: false
+                }}
+            />
+
         </Stack>
     )
 }
