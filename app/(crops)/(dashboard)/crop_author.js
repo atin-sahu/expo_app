@@ -1,14 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
-const Three = () => {
+const Page = () => {
   return (
     <View>
-      <Text>Three tabs</Text>
+      <Text> crop author Page</Text>
     </View>
   )
 }
 
-export default Three
+export default Page
 
 const styles = StyleSheet.create({})

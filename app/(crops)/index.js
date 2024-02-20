@@ -20,12 +20,12 @@ const Page = () => {
           }
         }
         asChild
-        replace
+        // replace
       >
         <Button  title="complete crop" />
       </Link>
 
-      <Link href="/crop_details" asChild>
+      <Link href="/(crops)/(dashboard)/crop_details" asChild>
         <Button  title="fill start date" />
       </Link>
       <Link href="/payment" asChild>

@@ -19,69 +19,6 @@ const _layout = () => {
 
                 }}
             />
-            <Stack.Screen
-                name="register"
-                options={{
-                    title: 'REGISTER',
-                    headerStyle: {
-                        backgroundColor: '#f4511e',
-                    },
-                    headerTintColor: '#fff',
-                    headerTitleStyle: {
-                        fontWeight: 'bold',
-                    },
-
-                }}
-            />
-            <Stack.Screen
-                name="page1"
-                options={{
-                    title: 'PAGE-1',
-                    headerStyle: {
-                        backgroundColor: '#f4511e',
-                    },
-                    headerTintColor: '#fff',
-                    headerTitleStyle: {
-                        fontWeight: 'bold',
-                    },
-
-                }}
-            />
-            <Stack.Screen
-                name="page2"
-                options={{
-                    title: 'PAGE-2',
-                    headerStyle: {
-                        backgroundColor: '#f4511e',
-                    },
-                    headerTintColor: '#fff',
-                    headerTitleStyle: {
-                        fontWeight: 'bold',
-                    },
-
-                }}
-            />
-            <Stack.Screen
-                name="(tabs)"
-                options={{
-                    title: 'TABS',
-                    headerStyle: {
-                        backgroundColor: '#f4511e',
-                    },
-                    headerTintColor: '#fff',
-                    headerTitleStyle: {
-                        fontWeight: 'bold',
-                    },
-                    headerShown: false
-                }}
-            />
-
-            <Stack.Screen
-                name="modal"
-                options={{
-                    presentation: 'modal',
-                }}
-            />
 
             <Stack.Screen
                 name="(crops)"

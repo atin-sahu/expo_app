@@ -113,7 +113,7 @@ const _layout = () => {
             }}
         />
 
-        <Stack.Screen
+        {/* <Stack.Screen
             name='crop_details'
             options={{
                 title: 'Crop Details',
@@ -126,7 +126,7 @@ const _layout = () => {
                 },
                 headerRight: () => <HeaderRight />
             }}
-        />
+        /> */}
 
         <Stack.Screen
             name='(dashboard)'

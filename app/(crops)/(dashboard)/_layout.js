@@ -21,6 +21,34 @@ const _layout = () => {
                 headerRight: () => <HeaderRight />
             }}
         />
+        <Stack.Screen
+            name='crop_details'
+            options={{
+                title: 'Crop Details',
+                headerStyle: {
+                    backgroundColor: '#f4511e',
+                },
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                    fontWeight: 'bold',
+                },
+                headerRight: () => <HeaderRight />
+            }}
+        />
+        <Stack.Screen
+            name='crop_author'
+            options={{
+                title: 'Crop Author',
+                headerStyle: {
+                    backgroundColor: '#f4511e',
+                },
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                    fontWeight: 'bold',
+                },
+                headerRight: () => <HeaderRight />
+            }}
+        />
 
     </Stack>
   )
