@@ -6,7 +6,7 @@ const Page = () => {
   return (
     <View>
       <Text>payment Page</Text>
-      <Link href="/index" asChild>
+      <Link href="/(crops)" asChild>
         <Button title=" payment success" />
       </Link>
     </View>

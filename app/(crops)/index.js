@@ -4,14 +4,32 @@ import { Link } from 'expo-router'
 
 const Page = () => {
   return (
-    <View>
+    <View style={{gap:10}}>
       <Text>crops home screen</Text>
       <Link href="/add_location" asChild>
         <Button  title="Add crop" />
       </Link>
 
+      <Link 
+        href={{
+            pathname:'/(crops)/(dashboard)/crop_dashboard',
+            params: {
+              crop_id: 2,
+              crop_name: 'Chilli'
+            } 
+          }
+        }
+        asChild
+        replace
+      >
+        <Button  title="complete crop" />
+      </Link>
+
       <Link href="/crop_details" asChild>
-        <Button  title="this is a added crop click to see crop details" />
+        <Button  title="fill start date" />
+      </Link>
+      <Link href="/payment" asChild>
+        <Button  title="payment pendig of crop" />
       </Link>
     </View>
   )

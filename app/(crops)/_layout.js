@@ -127,6 +127,22 @@ const _layout = () => {
                 headerRight: () => <HeaderRight />
             }}
         />
+
+        <Stack.Screen
+            name='(dashboard)'
+            options={{
+                // title: 'Crop Dashboard',
+                // headerStyle: {
+                //     backgroundColor: '#f4511e',
+                // },
+                // headerTintColor: '#fff',
+                // headerTitleStyle: {
+                //     fontWeight: 'bold',
+                // },
+                // headerRight: () => <HeaderRight />
+                headerShown: false
+            }}
+        />
     </Stack>
   )
 }
