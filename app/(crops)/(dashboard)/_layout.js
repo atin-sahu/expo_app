@@ -50,6 +50,21 @@ const _layout = () => {
             }}
         />
 
+        <Stack.Screen
+            name='(inputs)'
+            options={{
+                title: 'Crop Inputs',
+                headerStyle: {
+                    backgroundColor: '#f4511e',
+                },
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                    fontWeight: 'bold',
+                },
+                headerRight: () => <HeaderRight />
+            }}
+        />
+
     </Stack>
   )
 }

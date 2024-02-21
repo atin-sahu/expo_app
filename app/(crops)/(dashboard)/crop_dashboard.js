@@ -48,13 +48,13 @@ const Page = () => {
           </View>
           <Text>purchase</Text>
           <View style={{ gap: 15 }}>
-            <Link href="/" >
+            <Link href="/(crops)/(dashboard)/(inputs)/seed" >
               <Ionicons name="add" size={20} color="black"><Text>Seeds </Text> </Ionicons>
             </Link>
-            <Link href="/" >
+            <Link href="/(crops)/(dashboard)/(inputs)/fertiliser" >
               <Ionicons name="add" size={20} color="black"><Text>Fertilizer</Text> </Ionicons>
             </Link>
-            <Link href="/" >
+            <Link href="/(crops)/(dashboard)/(inputs)/pesticides" >
               <Ionicons name="add" size={20} color="black"><Text>Pesticide</Text> </Ionicons>
             </Link>
             <Link href="/" >
